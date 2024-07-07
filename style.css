@@ -6,90 +6,90 @@
 
 @font-face {
     font-family: "Boska-black";
-    src: url(fonts/boska/Boska-Black.otf);
+    src: url(/fonts/boska/Boska-Black.otf);
 }
 
 @font-face {
     font-family: "Boska-blackitic";
-    src: url(fonts/boska/Boska-BlackItalic.otf);
+    src: url(/fonts/boska/Boska-BlackItalic.otf);
 }
 
 @font-face {
     font-family: "Boska-bold";
-    src: url(fonts/boska/Boska-Bold.otf);
+    src: url(/fonts/boska/Boska-Bold.otf);
 }
 
 @font-face {
     font-family: "Boska-bolditalic";
-    src: url(fonts/boska/Boska-BoldItalic.otf);
+    src: url(/fonts/boska/Boska-BoldItalic.otf);
 }
 
 @font-face {
     font-family: "Boska-extralight";
-    src: url(fonts/boska/Boska-Extralight.otf);
+    src: url(/fonts/boska/Boska-Extralight.otf);
 }
 
 @font-face {
     font-family: "Boska-extralightItalic";
-    src: url(fonts/boska/Boska-ExtralightItalic.otf);
+    src: url(/fonts/boska/Boska-ExtralightItalic.otf);
 }
 
 @font-face {
     font-family: "Boska-italic";
-    src: url(fonts/boska/Boska-Italic.otf);
+    src: url(/fonts/boska/Boska-Italic.otf);
 }
 
 @font-face {
     font-family: "Boska-light";
-    src: url(fonts/boska/Boska-Light.otf);
+    src: url(/fonts/boska/Boska-Light.otf);
 }
 
 @font-face {
     font-family: "Boska-lightItalic";
-    src: url(fonts/boska/Boska-LightItalic.otf);
+    src: url(/fonts/boska/Boska-LightItalic.otf);
 }
 
 @font-face {
     font-family: "Boska-medium";
-    src: url(fonts/boska/Boska-Medium.otf);
+    src: url(/fonts/boska/Boska-Medium.otf);
 }
 
 @font-face {
     font-family: "Boska-mediumItalic";
-    src: url(fonts/boska/Boska-MediumItalic.otf);
+    src: url(/fonts/boska/Boska-MediumItalic.otf);
 }
 
 @font-face {
     font-family: "Boska-regular";
-    src: url(fonts/boska/Boska-Regular.otf);
+    src: url(/fonts/boska/Boska-Regular.otf);
 }
 
 /* Switzer */
 
 @font-face {
     font-family: "Switzer black";
-    src: url(fonts/switzer/Switzer-Black.otf);
+    src: url(/fonts/switzer/Switzer-Black.otf);
 }
 
 @font-face {
     font-family: "Switzer regular";
-    src: url(fonts/switzer/Switzer-Regular.otf);
+    src: url(/fonts/switzer/Switzer-Regular.otf);
 }
 
 /* Avenir */
 @font-face {
     font-family: "Avenir Next LT Pro Regular";
-    src: url(fonts/avenir/AvenirNextLTPro-Regular.otf);
+    src: url(/fonts/avenir/AvenirNextLTPro-Regular.otf);
 }
 
 @font-face {
     font-family: "Avenir Next LT Pro It";
-    src: url(fonts/avenir/AvenirNextLTPro-It.otf);
+    src: url(/fonts/avenir/AvenirNextLTPro-It.otf);
 }
 
 @font-face {
     font-family: "Avenir Next LT Pro Bold";
-    src: url(fonts/avenir/AvenirNextLTPro-Bold.otf);
+    src: url(/fonts/avenir/AvenirNextLTPro-Bold.otf);
 }
 
 /* ============================================== */
@@ -283,9 +283,9 @@ ul li a {
 .about {
     height: 1500px;
     width: 100%;
-    background-image: url("images/about/1.png"),
-        url("images/about/2.png"), url("images/about/3.png"),
-        url("images/about/4.png");
+    background-image: url("/images/about/1.png"),
+        url("/images/about/2.png"), url("/images/about/3.png"),
+        url("/images/about/4.png");
     background-position:
         220px 50px,
         1200px -100px,
@@ -324,7 +324,6 @@ ul li a {
     font-family: "Boska-regular";
     font-size: 68px;
     font-weight: 100;
-    /* margin-left: 125px; */
 }
 
 .slider {
@@ -350,11 +349,7 @@ ul li a {
 }
 
 .slider-image div {
-    /* z-index: 2; */
     color: white;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: end; */
 }
 
 .slider-image:first-child div,
@@ -372,21 +367,6 @@ ul li a {
     height: 778.32px;
     position: relative;
 }
-
-/* .slider-image:nth-child(2) div {
-    flex-direction: row;
-    align-items: end;
-    justify-content: start;
-    gap: 57px;
-    padding: 0 0 51px 60px;
-}
-
-.slider-image:nth-child(2) div .slider-image-info {
-    font-family: "Boska Variable";
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 88.4px;
-} */
 
 .slider-image-info {
     display: flex;
@@ -414,7 +394,7 @@ ul li a {
 /* subscription */
 
 .subscription {
-    background-image: url(images/subscription.png);
+    background-image: url(/images/subscription.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1194px;
@@ -470,7 +450,7 @@ input[type="text"] {
 .subscription-btn {
     font-family: "Switzer regular";
     font-size: 18px;
-    padding: 13px 42px 13px 34px;
+    padding: 14px 43px 14px 35px;
     margin-left: -4px;
     background-color: #75ff69;
     border: none;
