@@ -260,7 +260,6 @@ ul li a {
 .about-us {
     text-align: center;
     margin-top: 300px;
-    /* margin-bottom: -448px; */
 }
 
 .about-us .about-us-header {
@@ -283,9 +282,9 @@ ul li a {
 .about {
     height: 1500px;
     width: 100%;
-    background-image: url("/images/about/1.png"),
-        url("/images/about/2.png"), url("/images/about/3.png"),
-        url("/images/about/4.png");
+    background-image: url("./images/about/1.png"),
+        url("./images/about/2.png"), url("./images/about/3.png"),
+        url("./images/about/4.png");
     background-position:
         220px 50px,
         1200px -100px,
@@ -394,7 +393,7 @@ ul li a {
 /* subscription */
 
 .subscription {
-    background-image: url(/images/subscription.png);
+    background-image: url(./images/subscription.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1194px;
