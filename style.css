@@ -3,60 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Boska */
-
-@font-face {
-    font-family: "Boska-black";
-    src: url(/fonts/boska/Boska-Black.otf);
-}
-
-@font-face {
-    font-family: "Boska-blackitic";
-    src: url(/fonts/boska/Boska-BlackItalic.otf);
-}
-
 @font-face {
     font-family: "Boska-bold";
     src: url(/fonts/boska/Boska-Bold.otf);
-}
-
-@font-face {
-    font-family: "Boska-bolditalic";
-    src: url(/fonts/boska/Boska-BoldItalic.otf);
-}
-
-@font-face {
-    font-family: "Boska-extralight";
-    src: url(/fonts/boska/Boska-Extralight.otf);
-}
-
-@font-face {
-    font-family: "Boska-extralightItalic";
-    src: url(/fonts/boska/Boska-ExtralightItalic.otf);
-}
-
-@font-face {
-    font-family: "Boska-italic";
-    src: url(/fonts/boska/Boska-Italic.otf);
-}
-
-@font-face {
-    font-family: "Boska-light";
-    src: url(/fonts/boska/Boska-Light.otf);
-}
-
-@font-face {
-    font-family: "Boska-lightItalic";
-    src: url(/fonts/boska/Boska-LightItalic.otf);
-}
-
-@font-face {
-    font-family: "Boska-medium";
-    src: url(/fonts/boska/Boska-Medium.otf);
-}
-
-@font-face {
-    font-family: "Boska-mediumItalic";
-    src: url(/fonts/boska/Boska-MediumItalic.otf);
 }
 
 @font-face {
@@ -65,36 +14,12 @@
 }
 
 /* Switzer */
-
-@font-face {
-    font-family: "Switzer black";
-    src: url(/fonts/switzer/Switzer-Black.otf);
-}
-
 @font-face {
     font-family: "Switzer regular";
     src: url(/fonts/switzer/Switzer-Regular.otf);
 }
 
-/* Avenir */
-@font-face {
-    font-family: "Avenir Next LT Pro Regular";
-    src: url(/fonts/avenir/AvenirNextLTPro-Regular.otf);
-}
-
-@font-face {
-    font-family: "Avenir Next LT Pro It";
-    src: url(/fonts/avenir/AvenirNextLTPro-It.otf);
-}
-
-@font-face {
-    font-family: "Avenir Next LT Pro Bold";
-    src: url(/fonts/avenir/AvenirNextLTPro-Bold.otf);
-}
-
 /* ============================================== */
-
-
 
 * {
     margin: 0;
@@ -539,7 +464,7 @@ input[type="text"] {
     color: #1b3936;
 }
 
-.testimonialBtn {
+.testimonial-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -548,7 +473,7 @@ input[type="text"] {
     margin-bottom: 78px;
 }
 
-.testibtn {
+.btn-arrow {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -560,28 +485,130 @@ input[type="text"] {
     transition: all linear 0.3s;
 }
 
-.testibtngreen {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+.btn-arrow img {
+    width: 21.41px;
+    height: 23.4px;
+}
+
+.btn-arrow:hover {
     background-color: #75ff69;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: white;
+}
+
+.lets-talk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lets-talk-left {
+    margin-left: 20px;
+}
+
+.lets-talk-left h3 {
+    font-family: "Boska-regular";
+    font-size: 68px;
+    color: #1b3936;
+    padding-top: 78px;
+}
+
+.lets-talk-left p {
+    font-family: "Switzer regular";
+    font-size: 18px;
+    color: #1b3936;
+    margin-top: 7px;
+}
+
+.footer-btn {
+    position: relative;
+    width: 79px;
+    height: 72px;
+    background-color: transparent;
+    border: none;
+    font-family: "Switzer regular";
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.footer-btn img {
+    position: absolute;
+    top: 7px;
+    left: -60px;
+}
+
+.footer-info {
     display: flex;
     justify-content: center;
+}
+
+.footer-info-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    height: 320px;
+    padding-left: 154px;
+    margin-top: 105px;
+    background: #75ff69;
+}
+
+.footer-bg-secondary {
+    background-color: #1e3c39;
+    display: flex;
+}
+
+.footer-text-secondary h4,
+.footer-text-secondary p {
+    color: white;
+}
+
+.footer-info-title {
+    font-family: "Boska-regular";
+    color: #1b3936;
+    font-size: 68px;
+}
+
+.footer-info-subtitle {
+    font-family: "Switzer regular";
+    color: #1e3c39;
+    font-size: 18px;
+}
+
+.arrow-1 img {
+    position: relative;
+    top: 30px;
+    right: -380px;
+}
+
+.arrow-2 img {
+    position: relative;
+    top: -72px;
+    right: -230px;
+}
+
+.footer-end {
+    background-color: white;
+}
+
+.footer-end ul {
+    display: flex;
     align-items: center;
-    border: none;
-    transition: all linear 0.3s;
+    justify-content: space-around;
+    gap: 58px;
 }
 
-.testibtn img {
-    width: 21.41px;
-    height: 23.4px;
-}
-
-.testibtngreen img {
-    width: 21.41px;
-    height: 23.4px;
-}
-
-.testibtn:hover {
-    background-color: #75ff69;
+.footer-end ul {
+    font-family: "Switzer regular";
+    font-size: 18px;
+    color: #1e3c39;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
